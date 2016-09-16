@@ -166,6 +166,7 @@ $@"🌍 **Weather for** 【{obj["target"]}】
                     });
 
                 cgb.CreateCommand(Prefix + "i")
+                   .Alias(Prefix + "img")
                    .Description($"Pulls the first image found using a search parameter. Use ~ir for different results. | `{Prefix}i cute kitten`")
                    .Parameter("query", ParameterType.Unparsed)
                        .Do(async e =>

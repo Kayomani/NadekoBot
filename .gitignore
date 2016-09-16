@@ -43,3 +43,6 @@ NadekoBot.sln.iml
 .idea/vcs.xml
 .idea/modules.xml
 NadekoBot/bin/Debug/data/config_xnaas.json
+/NadekoBot/bin/Debug/data/config2.json
+/NadekoBot/bin/Debug/data/lanops.json
+/NadekoBot/bin/Debug/data/tasks.json

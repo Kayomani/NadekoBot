@@ -13,6 +13,7 @@ using NadekoBot.Modules.Gambling;
 using NadekoBot.Modules.Games;
 using NadekoBot.Modules.Games.Commands;
 using NadekoBot.Modules.Help;
+using NadekoBot.Modules.LanOps;
 #if !NADEKO_RELEASE
 using NadekoBot.Modules.Music;
 #endif
@@ -21,6 +22,7 @@ using NadekoBot.Modules.Permissions;
 using NadekoBot.Modules.Permissions.Classes;
 using NadekoBot.Modules.Pokemon;
 using NadekoBot.Modules.Searches;
+using NadekoBot.Modules.TaskItem;
 using NadekoBot.Modules.Translator;
 using NadekoBot.Modules.Trello;
 using NadekoBot.Modules.Utility;
@@ -179,6 +181,8 @@ namespace NadekoBot
             modules.Add(new CustomReactionsModule(), "Customreactions", ModuleFilter.None);
             if (!string.IsNullOrWhiteSpace(Creds.TrelloAppKey))
                 modules.Add(new TrelloModule(), "Trello", ModuleFilter.None);
+            modules.Add(new LanOpsModule(), "LanOps", ModuleFilter.None);
+            modules.Add(new TaskModule(), "Task", ModuleFilter.None);
 
             //run the bot
             Client.ExecuteAndWait(async () =>

@@ -32,7 +32,7 @@ namespace NadekoBot.Modules.Administration.Commands
                     var message = e.GetArg("message")?.Trim();
                     if (string.IsNullOrWhiteSpace(message))
                     {
-                        await e.Channel.SendMessage($"Incorrect command usage. See -h {Prefix}acr for correct formatting").ConfigureAwait(false);
+                        await e.Channel.SendMessage($"Incorrect command usage. See >h {Prefix}acr for correct formatting").ConfigureAwait(false);
                         return;
                     }
                     if (NadekoBot.Config.CustomReactions.ContainsKey(name))

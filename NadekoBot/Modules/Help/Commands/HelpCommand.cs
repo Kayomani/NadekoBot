@@ -103,6 +103,8 @@ namespace NadekoBot.Classes.Help.Commands
                 .Description($"Either shows a help for a single command, or PMs you help link if no arguments are specified. | `{Prefix}h !m q` or just `{Prefix}h` ")
                 .Parameter("command", ParameterType.Unparsed)
                 .Do(HelpFunc());
+
+            /*
             cgb.CreateCommand(Module.Prefix + "hgit")
                 .Description($"Generates the commandlist.md file. **Bot Owner Only!** | `{Prefix}hgit`")
                 .AddCheck(SimpleCheckers.OwnerOnly())
@@ -126,7 +128,7 @@ You can send donations to `nadekodiscordbot@gmail.com`
 Don't forget to leave your discord name or id in the message.
 
 **Thank you** ♥️").ConfigureAwait(false);
-                });
+                });*/
         }
 
         private static string PrintCommandHelp(Command com)

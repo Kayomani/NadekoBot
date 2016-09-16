@@ -193,6 +193,12 @@
     <Compile Include="Modules\Conversations\Commands\RipCommand.cs" />
     <Compile Include="Modules\CustomReactions\CustomReactions.cs" />
     <Compile Include="Modules\Gambling\Commands\AnimalRacing.cs" />
+    <Compile Include="Modules\LanOps\Attendee.cs" />
+    <Compile Include="Modules\LanOps\DTO\Participant.cs" />
+    <Compile Include="Modules\LanOps\DTO\ParticipantUser.cs" />
+    <Compile Include="Modules\LanOps\LanOpsModule.cs" />
+    <Compile Include="Modules\LanOps\SavedConfig.cs" />
+    <Compile Include="Modules\LanOps\WatchedLan.cs" />
     <Compile Include="Modules\Music\Classes\PlaylistFullException.cs" />
     <Compile Include="Modules\Programming\Commands\HaskellRepl.cs" />
     <Compile Include="Modules\Programming\ProgrammingModule.cs" />
@@ -203,6 +209,12 @@
     <Compile Include="Modules\Searches\Commands\MemegenCommands.cs" />
     <Compile Include="Modules\Searches\Commands\OsuCommands.cs" />
     <Compile Include="Modules\Searches\Commands\PokemonSearchCommands.cs" />
+    <Compile Include="Modules\Tasks\Models\Comment.cs" />
+    <Compile Include="Modules\Tasks\Models\MonitoredLists.cs" />
+    <Compile Include="Modules\Tasks\Models\Task.cs" />
+    <Compile Include="Modules\Tasks\Models\TaskRepository.cs" />
+    <Compile Include="Modules\Tasks\Models\User.cs" />
+    <Compile Include="Modules\Tasks\TaskModule.cs" />
     <Compile Include="Modules\Utility\UtilityModule.cs" />
     <Compile Include="SQLite.cs" />
     <Compile Include="_Models\DataModels\TestDataModel.cs" />

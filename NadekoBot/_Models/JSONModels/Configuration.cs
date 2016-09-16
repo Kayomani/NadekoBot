@@ -200,20 +200,22 @@ Nadeko Support Server: <https://discord.gg/0ehQwTK2RBjAxzEY>";
 
     public class CommandPrefixesModel
     {
-        public string Administration { get; set; } = ".";
-        public string Searches { get; set; } = "~";
-        public string NSFW { get; set; } = "~";
+        public string Administration { get; set; } = ">";
+        public string Searches { get; set; } = ">";
+        public string NSFW { get; set; } = ">";
         public string Conversations { get; set; } = "<@{0}>";
-        public string ClashOfClans { get; set; } = ",";
-        public string Help { get; set; } = "-";
-        public string Music { get; set; } = "!!";
+        public string ClashOfClans { get; set; } = ">";
+        public string Help { get; set; } = ">";
+        public string Music { get; set; } = ">";
         public string Trello { get; set; } = "trello ";
         public string Games { get; set; } = ">";
-        public string Gambling { get; set; } = "$";
-        public string Permissions { get; set; } = ";";
-        public string Programming { get; set; } = "%";
+        public string Gambling { get; set; } = ">";
+        public string Permissions { get; set; } = ">";
+        public string Programming { get; set; } = ">";
         public string Pokemon { get; set; } = ">";
-        public string Utility { get; set; } = ".";
+        public string Utility { get; set; } = ">";
+        public string LanOps { get; set; } = ">";
+        public string Tasks { get; set; } = ">";
     }
 
     public static class ConfigHandler
